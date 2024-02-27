@@ -16,7 +16,7 @@ h1{
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
-    text-shadow:4px 3px 5px;
+   
 }
 .container{
     background: linear-gradient(to right, #9cecfb, #9cecfb, #0052d4);
