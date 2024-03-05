@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" >
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stop-watch</title>
+    <title> Stopwatch</title> 
     <link rel="stylesheet" href="./watch.css">
-    <script defer src="./stop_watch.js"></script>
-</head>
+   </head>
 <body>
-    <div class="container">
-        <h1>Stop Watch</h1>
-        <div id="timeshow">
-
-            00 : 00 : 00 : 000
-        </div>
-        <div class="buttons">
-            <button id="start">START</button>
-            <button id="pause">PAUSE</button>
-            <button id="reset">RESET</button>
-        </div>
+  <div class="wrapper">
+    <h1>Stop watch</h1>
+    <div class="time">
+      <span class="hour">00</span>
+      <span class="colon">:</span>
+      <span class="minute">00</span>
+      <span class="colon">:</span>
+      <span class="second">00</span>
+      <span class="colon ms-colon">:</span>
+      <span class="millisecond">00</span>
     </div>
+    <div class="buttons">
+      <button class="start">Start</button>
+      <button class="stop">Stop</button>
+      <button class="reset">Reset</button>
+    </div>
+  </div>
+  <script src="./stop_watch.js"></script>
 </body>
 </html>
